@@ -78,7 +78,7 @@ export default function CardFormWrapper() {
           <Success onContinue={handleContinue} />
         ) : (
           <form
-            className="w-full max-w-md p-6 rounded-md"
+            className="w-full max-w-md p-1 rounded-md"
             onSubmit={handleConfirm}
           >
             <UserInput
